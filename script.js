@@ -75,13 +75,13 @@ function playGame(){
       }
       else{
           computerScore++;
-          console.log("ou lose! ${computerSelection} beats ${humanSelection}`);
+          console.log("you lose! ${computerSelection} beats ${humanSelection}");
       }
   } 
 
   
   if(humanScore > computerScore){
-      console.log(`\nYou won the game ${humanScore}-${computerScore}! Wanna play again?`)
+      console.log('\nYou are even ${humanScore}-${computerScore}! Wanna try again?`);
   }
   else if(humanScore === computerScore){
       console.log(`\nYou are even ${humanScore}-${computerScore}! Wanna try again?`);
