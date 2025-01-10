@@ -75,7 +75,7 @@ function playGame(){
       }
       else{
           computerScore++;
-          console.log(`You lose! ${computerSelection} beats ${humanSelection}`);
+          console.log("ou lose! ${computerSelection} beats ${humanSelection}`);
       }
   } 
 
